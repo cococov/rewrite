@@ -2,6 +2,7 @@
 # REWRITE
 
 Rewrite is a little programming language, written years ago at the college as final project for the 'programming languajes' subject.
+Compiles to Jasmin and JVM bytecode.
 
 # Example code
 
