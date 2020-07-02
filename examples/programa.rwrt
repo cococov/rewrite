@@ -1,0 +1,6 @@
+REWRITE_START
+	REWRITE_STRING str
+{
+	str = "Soy un programa!"
+	printString(str)
+} REWRITE_END

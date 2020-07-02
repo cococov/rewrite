@@ -1,0 +1,29 @@
+REWRITE_START
+
+	REWRITE_NUMBER veces, i, cont, fib1, fib2, res
+	REWRITE_STRING a, b
+
+	{
+
+	veces = 10
+	i     = 0
+	cont  = 1
+	fib1  = 1
+	fib2  = 0
+	res   = 0
+
+	a = " Fibonacci: "
+	b = " Valor: "
+
+	printString(a)
+
+	REWRITE_FOR (i < veces) {
+		res = fib1 + fib2
+		fib2 = fib1
+		fib1 = res
+		printString(b)
+		printInt(res)
+		cont = cont + 1
+		i = i + 1
+	}
+} REWRITE_END
