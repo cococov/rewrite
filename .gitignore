@@ -1,0 +1,3 @@
+/src/rewrite.tab.c
+/src/rewrite.tab.h
+/src/lex.yy.c
